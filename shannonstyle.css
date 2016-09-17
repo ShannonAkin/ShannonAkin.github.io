@@ -1,0 +1,74 @@
+body {
+		font-family: tahoma;
+	}
+h1{
+		vertical-align:middle;
+		color: #66ffcc;
+		margin: 0px;
+		padding: 0px;
+		margin: 0px;
+	}	
+#h101{
+		height: 242px;
+		background-image: url("GrassTopBackground.png");
+
+	}
+#h102{
+		height: 18px;
+		background-image: url("GrassBottomBackground.png");
+
+	}	
+h2   {
+		color: #66ffcc;
+		margin: 0px;
+		padding: 0px;
+		background-image: url("chalkboard.png");
+	}
+h3   {
+		color: #6B9E9A;
+		margin: 0px;
+		padding: 0px;
+		background-image: url("chalkboard.png");
+	}	 
+#p01{
+		color: #9a9a9a;
+		margin: 0px;
+		padding: 0px;
+		background-color: #060B51;
+    }	 
+p     {
+		color: #9a9a9a;
+	}
+div {
+		text-align: center;
+	}
+#i01{
+		vertical-align:middle;
+		position: absolute;
+	}
+button{		
+		float:right;
+		transition-duration: 0.5s;
+		border-radius: 2px;
+		margin:0px;
+		font-family: tahoma;
+		background: transparent;
+		border: none;
+		color: #ffffcc;
+		padding: 4px 2.5em;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+#button01{
+		float:left;
+	}
+button:hover{
+		background: white;
+		color: black;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+br{
+	height:50px;
+	}
