@@ -11,14 +11,12 @@ h1{
 		text-align: middle;
 	}	
 #h101{
-		height: 72px;
+		height: 242px;
 		background-image: url("images/GrassTopBackground.png");
-
 	}
 #h102{
 		height: 18px;
 		background-image: url("images/GrassBottomBackground.png");
-
 	}	
 h2   {
 		color: #ffffcc;
