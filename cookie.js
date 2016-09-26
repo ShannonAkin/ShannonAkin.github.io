@@ -1,4 +1,7 @@
-function setCookie(cname,cquote,cvisits) {
+function setCookie() {
+    cname = document.getElementById("txtusername").value;
+    cquote = document.getElementById("txtquote").value;
+    cvisits += 1;
     document.cookie = "UserName="+cname+"; Quote="+cquote+"; VisitCnt="+cvisits+"; ";
 }
 
@@ -21,4 +24,6 @@ function checkCookie() {
     var userName=getCookie("UserName");
     var quote=getCookie("Quote");
     var visits=getCookie("VisitCnt");
+    document.getElementById("txtusername").defaultValue = userName;
+    document.getElementById("txtquote").defaultValue = quote;
 }
