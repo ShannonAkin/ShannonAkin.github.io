@@ -8,7 +8,7 @@ function setCookie() {
     visits += 1;
     var mystring = "UserName="+cname+"; Quote="+cquote+"; VisitCnt="+visits+"; ";
     document.cookie = mystring;
-    alert(myString);
+    alert(mystring);
 }
 
 function getCookie(cname){
