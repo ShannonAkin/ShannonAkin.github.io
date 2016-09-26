@@ -1,12 +1,10 @@
-var visits;
 var userName = "";
 var quote = "";
 
 function setCookie() {
     cname = document.getElementById("txtusername").value;
     cquote = document.getElementById("txtquote").value;
-    visits += 1;
-    var mystring = "UserName="+cname+",Quote="+cquote+",VisitCnt="+visits;
+    var mystring = "UserName="+cname+",Quote="+cquote;
     document.cookie = mystring;
     alert("Thank You for registering!");
     window.location.href="index.html";
@@ -30,7 +28,6 @@ function getCookie(cname){
 function checkCookie() {
     userName=getCookie("UserName");
     quote=getCookie("Quote");
-    visits=getCookie("VisitCnt");
     
     if(userName != ""){
 	document.getElementById("txtusername").value = userName;
