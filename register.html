@@ -1,0 +1,65 @@
+<html>
+	<!-- This is Shannon Akin's website for CS336 Web and Database Applications F16 -->
+	
+	<head>
+		<title>Home Page | Shannon</title>
+		<link rel="stylesheet" type="text/css" href="css/shannonstyle.css">
+		<script src="cookie.js"></script>
+	</head>
+
+	<body onload="checkCookie()">	
+		<!-- START OF HORIZONTAL NAVIGATION BAR -->
+		<table>
+			<tr>
+				<td> 
+					<a href="index.html">
+						<button> <b>HOME</b> </button>
+					</a>
+				</td>
+				<td>
+					<a href="quotes.html">
+						<button> quotes </button>
+					</a>
+				</td>
+				<td>
+					<a href="aboutMe.html">
+						<button> about me </button>
+					</a>
+				</td>
+				<td id="td01">
+					<img src="images/TopButton.png"> </img>
+				</td>
+				<td>
+					<a href="XXXXX.html">
+						<button> blank </button>
+					</a>
+				</td>
+				<td>
+					<a href="tags.html">
+						<button> tags </button>
+					</a>
+				</td>
+				<td>	
+					<a href="register.html">
+						<button><b> REGISTERING </b></button>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=7 halign=center>
+					<b>Hello &nbsp;&nbsp;</b>
+				</td>
+
+			</tr>
+		</table>
+		<!-- END OF HORIZONTAL NAVIGATION BAR -->
+
+		<p>Please enter your registration information below.</p>		
+			<table >
+				<tr><td>Name: </td><td><input type="text" name="txtusername"></td></tr>
+				<tr><td>Favorite Quote: </td><td><input type="text" name="txtquote"></td></tr>			
+				<tr><td></td><td><button onclick="setCookie()"> Register </button></td></tr>
+			</table>
+		
+	</body>
+</html>
