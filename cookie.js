@@ -32,6 +32,14 @@ function checkCookie() {
     quote=getCookie("Quote");
     visits=getCookie("VisitCnt");
     
-    document.getElementById("txtusername").defaultValue = userName;
-    document.getElementById("txtquote").defaultValue = quote;
+    if(userName == "undefined"){
+	alert(userName);
+	document.getElementById("txtwelcome").style.display = "none";
+	document.getElementById("txtusername").defaultValue = userName;
+    	document.getElementById("txtquote").defaultValue = quote;
+    } else {
+	document.getElementById("txtwelcome").style.display = "block";
+	document.getElementById("txtusername").defaultValue = "Please Register";
+    	document.getElementById("txtquote").defaultValue = "";
+    }
 }
