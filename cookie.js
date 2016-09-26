@@ -33,7 +33,7 @@ function checkCookie() {
     visits=getCookie("VisitCnt");
     
     if(userName != ""){
-	document.getElementById("txtusername").value = "Welcome Back "+ userName;
+	document.getElementById("txtusername").value = userName;
     	document.getElementById("txtquote").value = quote;
     } else {
 	document.getElementById("txtusername").value = "Please Register";
