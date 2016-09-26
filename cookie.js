@@ -33,7 +33,7 @@ function checkCookie() {
 	document.getElementById("txtusername").value = userName;
     	document.getElementById("txtquote").value = quote;
     } else {
-	document.getElementById("txtusername").value = "Please Register";
+	document.getElementById("txtusername").value = "";
     	document.getElementById("txtquote").value = "";
     }
 }
