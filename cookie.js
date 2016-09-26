@@ -33,13 +33,10 @@ function checkCookie() {
     visits=getCookie("VisitCnt");
     
     if(userName != ""){
-	alert(userName);
-	document.getElementById("txtwelcome").style.display = "block";
-	document.getElementById("txtusername").defaultValue = userName;
-    	document.getElementById("txtquote").defaultValue = quote;
+	document.getElementById("txtusername").value = "Welcome Back "+ userName;
+    	document.getElementById("txtquote").value = quote;
     } else {
-	document.getElementById("txtwelcome").style.display = "none";
-	document.getElementById("txtusername").defaultValue = "Please Register";
-    	document.getElementById("txtquote").defaultValue = "";
+	document.getElementById("txtusername").value = "Please Register";
+    	document.getElementById("txtquote").value = "";
     }
 }
