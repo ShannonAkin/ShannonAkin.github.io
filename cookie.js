@@ -6,7 +6,9 @@ function setCookie() {
     cname = document.getElementById("txtusername").value;
     cquote = document.getElementById("txtquote").value;
     visits += 1;
-    document.cookie = "UserName="+cname+"; Quote="+cquote+"; VisitCnt="+visits+"; ";
+    var mystring = "UserName="+cname+"; Quote="+cquote+"; VisitCnt="+visits+"; ";
+    document.cookie = mystring;
+    alert(myString);
 }
 
 function getCookie(cname){
