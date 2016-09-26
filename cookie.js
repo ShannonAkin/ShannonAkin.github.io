@@ -1,4 +1,4 @@
-var visits = 0;
+var visits;
 var userName = "";
 var quote = "";
 
@@ -8,12 +8,12 @@ function setCookie() {
     visits += 1;
     var mystring = "UserName="+cname+",Quote="+cquote+",VisitCnt="+visits;
     document.cookie = mystring;
-    alert(mystring);
+    alert("Thank You for registering!");
+    window.location.href="index.html";
 }
 
 function getCookie(cname){
     var name = cname + "=";
-    alert(document.cookie);
     var ca = document.cookie.split(',');
     for(var i=0; i<ca.length; i++) {
         var c = ca[i];
