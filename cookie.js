@@ -32,7 +32,7 @@ function checkCookie() {
     quote=getCookie("Quote");
     visits=getCookie("VisitCnt");
     
-    if(userName == "undefined"){
+    if(userName != ""){
 	alert(userName);
 	document.getElementById("txtwelcome").style.display = "none";
 	document.getElementById("txtusername").defaultValue = userName;
