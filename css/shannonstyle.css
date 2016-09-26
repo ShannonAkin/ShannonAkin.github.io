@@ -1,0 +1,95 @@
+body {
+		font-family: tahoma;
+		background-image:url("../images/background.png"); //image from: https://www.interstar.ca/Content/Products/sc080.jpg
+	}
+h2   {
+		color: clear;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 0px;
+		background-image: url("../images/chalkboard.png");
+	}
+h3   {
+		color: #ffffcc;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 0px;
+		background-image: url("../images/chalkboard.png");
+	}	 
+p	{
+		margin-left: 14%;
+		margin-right: 14%;	
+	}
+blockquote	{
+		margin-left: 14%;
+		margin-right: 14%;	
+	}
+ul{
+		margin-left: 14%;
+		margin-right: 14%;
+}
+div {
+		text-align: center;
+	}
+button{		
+		transition-duration: 0.7s;
+		border-radius: 2px;
+		margin:0px;
+		font-family: tahoma;
+		background: transparent;
+		border: none;
+		color: #ffffcc;
+		padding: 4px 2.5em;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+	}
+#button01:hover{
+		background:white;
+		color:black;
+	}
+button:hover{
+		background: black;
+		color: white;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+input[type=submit]{		
+		transition-duration: 0.7s;
+		border-radius: 2px;
+		margin:0px;
+		font-family: tahoma;
+		background: transparent;
+		border: none;
+		color: #ffffcc;
+		padding: 4px 2.5em;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+	}
+
+table{
+		width:80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding:0px;
+		text-align:center;
+		float:left;
+		background-image:transparent;
+}
+td{
+	width: 14%;
+}
+#t01{
+		background-image: url("../images/chalkboard.png");
+}
+#td01{
+		margin-left: auto;
+		margin-right: auto;
+		padding:0px;
+		background-image:none;
+}
+#td02{
+		background-image: url("../images/chalkboard.png");
+}
