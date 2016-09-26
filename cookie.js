@@ -6,14 +6,14 @@ function setCookie() {
     cname = document.getElementById("txtusername").value;
     cquote = document.getElementById("txtquote").value;
     visits += 1;
-    var mystring = "UserName="+cname+"; Quote="+cquote+"; VisitCnt="+visits;
+    var mystring = "UserName="+cname+",Quote="+cquote+",VisitCnt="+visits;
     document.cookie = mystring;
     alert(mystring);
 }
 
 function getCookie(cname){
     var name = cname + "=";
-    var ca = document.cookie.split(';');
+    var ca = document.cookie.split(',');
     for(var i=0; i<ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0)==' ') {
