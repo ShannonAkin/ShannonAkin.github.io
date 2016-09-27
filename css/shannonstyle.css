@@ -62,11 +62,19 @@ table{
 		text-align:center;
 		background-image:transparent;
 }
+
+
 td{
 	width: 14%;
 }
 #t01{
 		background-image: url("../images/chalkboard.png");
+}
+#t02{
+		width: 40%;
+		margin-left: 30%;
+		margin-right:30%;
+		text-align:right;
 }
 #td01{
 		margin-left: auto;
