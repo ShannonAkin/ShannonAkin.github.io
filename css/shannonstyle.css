@@ -86,3 +86,10 @@ td{
 		background-image: url("../images/chalkboard.png");
 }
 
+#td03{
+		text-align:left;
+}
+#td04{
+		text-align:center;
+}
+
