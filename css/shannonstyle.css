@@ -39,7 +39,7 @@ button{
 		background: transparent;
 		border: none;
 		color: #ffffcc;
-		padding: 0px 2em;
+		padding: 4px 2.5em;
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
@@ -60,8 +60,6 @@ table{
 		margin-right: 10%;
 		padding:0px;
 		text-align:center;
-		vertical-align:middle;
-		float:left;
 		background-image:transparent;
 }
 td{
@@ -79,3 +77,4 @@ td{
 #td02{
 		background-image: url("../images/chalkboard.png");
 }
+
