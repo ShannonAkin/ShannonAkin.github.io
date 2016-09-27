@@ -33,7 +33,7 @@ function checkCookie() {
 function setUserName() {
     checkCookie();
     if(userName != ""){
-	document.getElementById("btnUserName").textcontent = userName;
+	document.getElementById("btnUserName").innerHTML = userName;
 	document.getElementById("btnUserName").disabled = true;
     }
 }
