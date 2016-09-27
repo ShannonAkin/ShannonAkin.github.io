@@ -37,20 +37,9 @@ function setUserName() {
 	document.getElementById("btnUserName").disabled = true;
     }
     if(quote != ""){
-	document.getElementById("btnQuote").innerHTML = quote;
+	document.getElementById("btnQuote").innerHTML = ""quote"";
 	document.getElementById("btnQuote").disabled = true;
     }
 
 }
 
-function bogusStuff(){
-
-    if(userName != ""){
-	document.getElementById("txtusername").value = userName;
-    	document.getElementById("txtquote").value = quote;
-    } else {
-	document.getElementById("txtusername").value = "";
-    	document.getElementById("txtquote").value = "";
-    }
-
-}
