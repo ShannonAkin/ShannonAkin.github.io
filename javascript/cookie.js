@@ -36,6 +36,11 @@ function setUserName() {
 	document.getElementById("btnUserName").innerHTML = "Welcome back "+userName;
 	document.getElementById("btnUserName").disabled = true;
     }
+    if(quote != ""){
+	document.getElementById("btnQuote").innerHTML = quote;
+	document.getElementById("btnQuote").disabled = true;
+    }
+
 }
 
 function bogusStuff(){
