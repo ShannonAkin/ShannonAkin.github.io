@@ -37,7 +37,7 @@ function setUserName() {
 	document.getElementById("btnUserName").disabled = true;
     }
     if(quote != ""){
-	document.getElementById("btnQuote").innerHTML = &#34; quote; &#34;
+	document.getElementById("btnQuote").innerHTML = quote;
 	document.getElementById("btnQuote").disabled = true;
     }
 
