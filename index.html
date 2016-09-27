@@ -4,13 +4,11 @@
 	<head>
 		<title>Home Page | Shannon</title>
 		<link rel="stylesheet" type="text/css" href="css/shannonstyle.css">
-		<script src="cookie.js"></script>
+		<script src="javascript/cookie.js"></script>
 	</head>
 
-	<body onload="checkCookie()">	
-
+	<body onload="setUserName()">	
 		<!-- START OF HORIZONTAL NAVIGATION BAR -->
-		<!--#include file="include/nav.asp"-->
 		<table>
 			<tr>
 				<td> 
@@ -23,17 +21,13 @@
 						<button> quotes </button>
 					</a>
 				</td>
-				<td>
-					<a href="aboutMe.html">
-						<button> about me </button>
-					</a>
-				</td>
 				<td id="td01">
 					<img src="images/TopButton.png"> </img>
 				</td>
+
 				<td>
-					<a href="XXXXX.html">
-						<button> blank </button>
+					<a href="aboutMe.html">
+						<button> about me </button>
 					</a>
 				</td>
 				<td>
@@ -41,19 +35,17 @@
 						<button> tags </button>
 					</a>
 				</td>
-				<td>	
-					<a href="register.html">
-						<button> registration </button>
-					</a>
-				</td>
 			</tr>
 			<tr>
-				<td colspan=7 halign=center>
-					<input type="text" id="txtusername" disabled="disabled">
+				<td colspan=5 halign=center>
+					<a href="register.html">
+						<button id="btnUserName"> register </button>
+					</a>
 				</td>
 			</tr>
 		</table>
 		<!-- END OF HORIZONTAL NAVIGATION BAR -->
+
 		
 		<p> 
 			Welcome to my home page. At the home page, you can click on one of the links below to take you to another page. 
@@ -70,6 +62,34 @@
 				</div>
 			</p>
 		</address>
+		
+		<table id="t01">
+			<tr>
+				<td> 
+					<a href="index.html">
+						<button id="button01"> <b>HOME</b> </button>
+					</a>
+				</td>
+				<td>
+					<a href="quotes.html">
+						<button id="button01"> quotes </button>
+					</a>
+				</td>
+				<td id="td01">
+					<img src="images/NoButtonTable.png"> </img>
+				</td>
+				<td>
+					<a href="aboutMe.html">
+						<button id="button01"> about me </button>
+					</a>
+				</td>
+				<td>	
+					<a href="tags.html">
+						<button id="button01"> tags </button>
+					</a>
+				</td>
+			</tr>
+		</table>
 		
 	</body>
 </html>
